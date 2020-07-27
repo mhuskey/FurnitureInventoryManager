@@ -11,17 +11,55 @@ h1 {
 }
 
 button {
-  margin: 0 1rem 1rem 1rem;
+  margin: 1rem 1rem 3rem 1rem;
 }
 
 a {
-  color: #157FFB;
+  color: #398FF6;
 }
 
 a:hover {
-  color: #116CD6;
+  color: #3069D2;
 }
 
 .no-decoration a:focus, a:hover, a:active {
   text-decoration: none;
+}
+
+
+/* tables
+  ------------------------- */
+table {
+  margin: 2rem 0;
+}
+
+
+/* footer
+  ------------------------- */
+footer, footer a {
+  padding: 2rem 0;
+  background-color: #343A40;
+  color: #ffffff;
+}
+
+#copyright {
+  margin-bottom: 2rem;
+}
+
+li {
+  display: inline;
+  margin-right: 2rem;
+  font-size: 2.5rem;
+}
+
+#github a:focus, #github a:hover, #github a:before {
+  color: #800080;
+}
+
+#mail a:focus, #mail a:hover, #mail a:before {
+  color: #4077B5;
+}
+
+#linkedin a:focus, #linkedin a:hover, #linkedin a:before {
+  color: #0077B5;
 }
