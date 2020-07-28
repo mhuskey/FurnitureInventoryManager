@@ -14,16 +14,30 @@
               </div>
               
               <div class="col-sm-10 offset-sm-1 text-center align-middle">
-                <table id="inventory">
-                  <tr>
-                    <th>Manufacturer</th>
-                    <th>Product Name</th>
-                    <th>Current Stock</th>
-                    <th>Category</th>
-                    <th>Weight</th>
-                    <th>Cubes</th>
-                    <th>Price</th>
-                  </tr>
+                <table class="table table-striped table-bordered table-hover">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th>Manufacturer</th>
+                      <th>Item</th>
+                      <th>Stock</th>
+                      <th>Category</th>
+                      <th>Weight</th>
+                      <th>Cubes</th>
+                      <th>Price</th>
+                    </tr>
+                  </thead>
+                  
+                  <tbody>
+                    <tr>
+                      <td class="text-center align-middle"></td>
+                      <td class="text-center align-middle"></td>
+                      <td class="text-center align-middle"></td>
+                      <td class="text-center align-middle"></td>
+                      <td class="text-center align-middle"></td>
+                      <td class="text-center align-middle"></td>
+                      <td class="text-center align-middle"></td>
+                    </tr>
+                  </tbody>
                 </table>
               </div>
             </div>
