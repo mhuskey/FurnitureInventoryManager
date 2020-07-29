@@ -1,10 +1,9 @@
 <?php
-  class Bicycle {
+  class Furniture {
     public $manufacturer;
     public $item;
     public $stock;
     public $category;
-    public $weight;
     public $cubes;
     public $price;
     
@@ -21,16 +20,15 @@
     public function __construct($args=[]) {
       $this->manufacturer = $args['manufacturer'] ?? '';
       $this->item         = $args['item']         ?? '';
-      $this->stock        = $args['stock']        ?? '';
+      $this->stock        = $args['stock']        ??  0;
       $this->category     = $args['category']     ?? '';
-      $this->weight       = $args['weight']       ?? '';
-      $this->cubes        = $args['cubes']        ?? '';
-      $this->price        = $args['price']        ?? 0;
       $this->weight_lbs   = $args['weight_lbs']   ?? 0.0;
+      $this->cubes        = $args['cubes']        ?? 0.0;
+      $this->price        = $args['price']        ?? 0;
     }
     
     public function weight_lbs() {
-      return number_format($this->weight, 2) . ' lbs';
+      return number_format($this->weight_lbs, 2) . ' lbs';
     }
     
     // public function set_weight_lbs($value) {
