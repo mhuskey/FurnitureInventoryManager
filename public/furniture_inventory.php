@@ -7,7 +7,7 @@
     <main role="main">
       <section>
         <div class="main-content">
-          <div class="container min-vh-100">
+          <div class="container">
             <div class="row">
               <div class="col-sm-10 offset-sm-1 text-center align-middle">
                 <h2>Our Furniture Inventory</h2>
@@ -37,13 +37,13 @@
                       <?php $furniture = new Furniture($args) ?>
                       <tbody>
                         <tr>
-                          <td class="text-center align-middle"><?php echo h($furniture->manufacturer); ?></td>
-                          <td class="text-center align-middle"><?php echo h($furniture->item); ?></td>
-                          <td class="text-center align-middle"><?php echo h($furniture->stock); ?></td>
-                          <td class="text-center align-middle"><?php echo h($furniture->category); ?></td>
-                          <td class="text-center align-middle"><?php echo h($furniture->weight_lbs()) . ' / ' . h($furniture->weight_kgs()); ?></td>
-                          <td class="text-center align-middle"><?php echo h($furniture->cubes); ?></td>
-                          <td class="text-center align-middle"><?php echo h($furniture->price); ?></td>
+                          <td class="align-middle"><?php echo h($furniture->manufacturer); ?></td>
+                          <td class="align-middle"><?php echo h($furniture->item); ?></td>
+                          <td class="align-middle"><?php echo h($furniture->stock); ?></td>
+                          <td class="align-middle"><?php echo h($furniture->category); ?></td>
+                          <td class="align-middle"><?php echo h($furniture->weight_lbs()) . ' / ' . h($furniture->weight_kgs()); ?></td>
+                          <td class="align-middle"><?php echo h($furniture->cubes); ?></td>
+                          <td class="align-middle"><?php echo '$' . h($furniture->price); ?></td>
                         </tr>
                       </tbody>
                   <?php } ?>
