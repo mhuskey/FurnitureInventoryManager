@@ -31,4 +31,6 @@
     }
   }
   spl_autoload_register('my_autoload');
+  
+  $errors = [];
 ?>
