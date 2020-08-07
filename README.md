@@ -5,7 +5,7 @@ FurnitureInventoryManager is an object-oriented PHP web application with a respo
 ---
 
 ## Features
-• Include a CSV file, and the data will be parsed and displayed in a table:
+Upload a CSV file, or use the included one, and the data will be parsed and displayed in a table:
 <img src="https://github.com/mhuskey/FurnitureInventoryManager/blob/master/public/assets/images/screenshots/FurnitureInventoryManager_01.png" />
 
 <img src="https://github.com/mhuskey/FurnitureInventoryManager/blob/master/public/assets/images/screenshots/FurnitureInventoryManager_02.png" />
