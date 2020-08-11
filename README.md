@@ -11,3 +11,5 @@ Upload a CSV file, or use the included one, and the data will be parsed and disp
 <img src="https://github.com/mhuskey/FurnitureInventoryManager/blob/master/public/assets/images/screenshots/FurnitureInventoryManager_02.png" />
 
 <img src="https://github.com/mhuskey/FurnitureInventoryManager/blob/master/public/assets/images/screenshots/FurnitureInventoryManager_03.png" />
+
+<img src="https://github.com/mhuskey/FurnitureInventoryManager/blob/master/public/assets/images/screenshots/FurnitureInventoryManager_04.png" />
